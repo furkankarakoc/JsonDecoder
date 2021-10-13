@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405D10E827156DAA00827484 /* DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405D10E727156DAA00827484 /* DetailPage.swift */; };
 		40F2D5652714F8A10025BB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2D5642714F8A10025BB9B /* AppDelegate.swift */; };
 		40F2D5672714F8A10025BB9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2D5662714F8A10025BB9B /* SceneDelegate.swift */; };
 		40F2D5692714F8A10025BB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2D5682714F8A10025BB9B /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		40F2D5712714F8A20025BB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F2D56F2714F8A20025BB9B /* LaunchScreen.storyboard */; };
 		40F2D57C2714F8A20025BB9B /* citizenmeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2D57B2714F8A20025BB9B /* citizenmeTests.swift */; };
 		40F2D5872714F8A20025BB9B /* citizenmeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2D5862714F8A20025BB9B /* citizenmeUITests.swift */; };
+		40F2D5982714FB170025BB9B /* JsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F2D5972714FB170025BB9B /* JsonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		405D10E727156DAA00827484 /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
 		40F2D5612714F8A10025BB9B /* citizenme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citizenme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F2D5642714F8A10025BB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40F2D5662714F8A10025BB9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		40F2D5822714F8A20025BB9B /* citizenmeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citizenmeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F2D5862714F8A20025BB9B /* citizenmeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citizenmeUITests.swift; sourceTree = "<group>"; };
 		40F2D5882714F8A20025BB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F2D5972714FB170025BB9B /* JsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				40F2D5642714F8A10025BB9B /* AppDelegate.swift */,
 				40F2D5662714F8A10025BB9B /* SceneDelegate.swift */,
+				405D10E727156DAA00827484 /* DetailPage.swift */,
 				40F2D5682714F8A10025BB9B /* ViewController.swift */,
+				40F2D5972714FB170025BB9B /* JsonViewController.swift */,
 				40F2D56A2714F8A10025BB9B /* Main.storyboard */,
 				40F2D56D2714F8A20025BB9B /* Assets.xcassets */,
 				40F2D56F2714F8A20025BB9B /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F2D5982714FB170025BB9B /* JsonViewController.swift in Sources */,
 				40F2D5692714F8A10025BB9B /* ViewController.swift in Sources */,
 				40F2D5652714F8A10025BB9B /* AppDelegate.swift in Sources */,
+				405D10E827156DAA00827484 /* DetailPage.swift in Sources */,
 				40F2D5672714F8A10025BB9B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
